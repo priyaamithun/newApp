@@ -1,0 +1,258 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/* prevent adjustment of font size after orientation changes in IE on window phone and in iOS*/
+/*apply natural box layout on all elements*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: url(./images/weather-app.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Cards {
+  width: 20rem;
+  background-color: rgba(145, 168, 101, 0.5);
+  color: white;
+  height: 400px;
+  margin-left: 1px;
+  margin-top: 10px;
+  margin-right: 5px; }
+
+.forms {
+  color: white;
+  float: right; }
+
+.md-form {
+  margin-top: 10px; }
+
+.md-form .form-control {
+  margin-top: 20px; }
+
+hr {
+  width: 80%;
+  margin-left: 40px; }
+
+.card-title {
+  margin-top: 70px;
+  text-align: center; }
+
+.link-button {
+  margin-top: 10px;
+  margin-left: 25px;
+  display: inline-block; }
+
+.titles {
+  margin-top: 10px;
+  color: white;
+  clear: both;
+  display: inline-block;
+  font-family: "Charm", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1px; }
+
+.titles h1 {
+  text-align: center; }
+
+.titles h3 {
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
+.weather_info {
+  font-family: "Charm", cursive;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 20px;
+  display: inline-block;
+  line-height: 5rem; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 35rem) and (min-width: 35rem) {
+  .Cards {
+    width: 30rem;
+    margin-top: 30px;
+    background-color: rgba(145, 168, 101, 0.5);
+    color: white;
+    height: 450px;
+    margin-right: 20px; }
+
+  .titles {
+    margin-top: 60px;
+    color: white;
+    clear: both;
+    display: inline-block;
+    font-family: "Charm", cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1px; }
+
+  .titles h1 {
+    text-align: center; }
+
+  .titles h3 {
+    margin-left: 65px;
+    margin-bottom: 15px; }
+
+  .link-button {
+    margin-top: 10px;
+    margin-left: 95px;
+    display: inline-block; }
+
+  .weather_info {
+    font-family: "Charm", cursive;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 120px;
+    display: inline-block;
+    line-height: 5rem; } }
+@media only screen and (min-width: 60rem) {
+  /* prevent adjustment of font size after orientation changes in IE on window phone and in iOS*/ }
+@media only screen and (min-width: 60rem) and (min-width: 60rem) {
+  /*apply natural box layout on all elements*/
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+  body {
+    background: url(./images/weather-app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .Cards {
+    width: 30rem;
+    margin-top: 70px;
+    background-color: rgba(145, 168, 101, 0.5);
+    color: white;
+    height: 450px;
+    margin-right: 50px; }
+
+  .forms {
+    color: white;
+    float: right; }
+
+  .md-form {
+    margin-top: 10px; }
+
+  .md-form .form-control {
+    margin-top: 20px; }
+
+  hr {
+    width: 80%;
+    margin-left: 40px; }
+
+  .card-title {
+    margin-top: 70px;
+    text-align: center; }
+
+  .link-button {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: inline-block; }
+
+  .titles {
+    margin-left: 50px;
+    margin-top: 250px;
+    color: white;
+    clear: both;
+    display: inline-block;
+    font-family: "Charm", cursive;
+    font-size: 2rem; }
+
+  .weather_info {
+    font-family: "Charm", cursive;
+    font-size: 2rem;
+    color: white;
+    margin-left: 150px;
+    margin-top: 150px;
+    display: inline-block;
+    line-height: 5rem; }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; } }

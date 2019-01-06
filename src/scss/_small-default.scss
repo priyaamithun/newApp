@@ -1,0 +1,111 @@
+/* prevent adjustment of font size after orientation changes in IE on window phone and in iOS*/
+
+
+/*apply natural box layout on all elements*/
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(./images/weather-app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Cards{
+    width:20rem;
+    background-color: rgba(145, 168, 101, 0.5);
+    color:white;
+    height:400px;
+    margin-left:1px;
+    margin-top:10px;
+    margin-right:5px;
+    
+}
+
+
+
+.forms{
+    color: white;
+    float: right;
+}
+.md-form{
+    margin-top:10px;   
+
+}
+.md-form .form-control{
+    margin-top:20px;
+}
+
+hr{
+  width:80%;  
+margin-left:40px;
+}
+
+.card-title{
+    margin-top:70px;
+    text-align: center;
+}
+
+.link-button{
+    margin-top:10px;
+    margin-left:25px;
+    display: inline-block;
+}
+
+.titles{
+
+margin-top:10px;
+color: white;
+clear:both;
+display: inline-block;
+font-family:$defaultfont;
+font-size: $smallfont;
+letter-spacing: 1px;
+}
+.titles h1{
+    text-align: center;
+}
+.titles h3{
+    margin-left:15px;
+    margin-bottom:15px;
+}
+.weather_info{
+    font-family: $defaultfont;
+    font-size: $smallfont;
+    color:white;
+    margin-left:20px;
+    display: inline-block;
+    line-height:5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+  
